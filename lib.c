@@ -43,7 +43,7 @@ int test_fermat(mpz_t n, mpz_t k)
     {
 
         mpz_urandomm(alea, state, n_sub_2); // On assigne à alea une valeur aléatoire entre 0 et n-3 inclu donc 0 <= alea <= n-3 ou 0 <= alea < n-2
-        mpz_add_ui(alea, alea, 1);          // On ajoute 1 a aléa pour avoir 1 < alea < n-1
+        mpz_add_ui(alea, alea, 2);          // On ajoute 1 a aléa pour avoir 1 < alea < n-1
         gmp_printf("le nb aléatoire tiré est %Zd\n", alea);
 
         square_and_multiply(test, alea, n, n_sub_1);

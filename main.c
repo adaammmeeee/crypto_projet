@@ -5,7 +5,7 @@ int main()
     mpz_t a, n, h, r;
     mpz_init_set_str(a, "12", 10);
     mpz_init_set_str(h, "24", 10);
-    mpz_init_set_str(n, "7", 10);
+    mpz_init_set_str(n, "4", 10);
     mpz_init(r);
 
     square_and_multiply(r, a, n, h);

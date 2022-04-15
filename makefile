@@ -13,3 +13,6 @@ main.o: main.c lib.h
 
 compil: lib.o main.o
 	gcc -Wall -o main main.o lib.o -lgmp
+
+clean: 
+	rm -f *.o main a.out

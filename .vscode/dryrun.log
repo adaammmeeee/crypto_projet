@@ -1,0 +1,13 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/adame/crypto_projet'
+ 
+gcc -Wall -c -g lib.c -lgmp
+ 
+gcc -Wall -c -g main.c -lgmp
+ 
+gcc -Wall -o main main.o lib.o -lgmp
+ 
+./main
+ 
+make: Leaving directory '/home/adame/crypto_projet'
+ 
