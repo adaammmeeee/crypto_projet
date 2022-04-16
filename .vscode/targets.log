@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Apr 15 17:22:10 2022
+# Make data base, printed on Sun Apr 17 00:30:46 2022
 
 # Variables
 
@@ -51,7 +49,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{"*":"fr"},"_languagePackId":"f62d0d328ea2a469bad3c39b06263023.fr","_translationsConfigFile":"/home/adame/.config/Code/clp/f62d0d328ea2a469bad3c39b06263023.fr/tcf.json","_cacheRoot":"/home/adame/.config/Code/clp/f62d0d328ea2a469bad3c39b06263023.fr","_resolvedLanguagePackCoreLocation":"/home/adame/.config/Code/clp/f62d0d328ea2a469bad3c39b06263023.fr/dfd34e8260c270da74b5c2d86d61aee4b6d56977","_corruptedFile":"/home/adame/.config/Code/clp/f62d0d328ea2a469bad3c39b06263023.fr/corrupted.info","_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:40824
+JOURNAL_STREAM = 8:45143
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -71,11 +69,11 @@ MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=494493bb2b3235f51883f1ce62598b45
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=d7ee1a12c8bb275b4fad5083625b0b60
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 992
+MANAGERPID = 946
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -89,7 +87,7 @@ PATH = /home/adame/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/adame:@/tmp/.ICE-unix/1288,unix/adame:/tmp/.ICE-unix/1288
+SESSION_MANAGER = local/adame:@/tmp/.ICE-unix/1258,unix/adame:/tmp/.ICE-unix/1258
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -107,7 +105,7 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = ef119923fcf548a2a1c8be3e417833c6
+INVOCATION_ID = fe78bc7287a04a99830f93199ceb94bd
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/94/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
@@ -131,7 +129,7 @@ PWD = /home/adame/crypto_projet
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1250
+SSH_AGENT_PID = 1219
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -183,7 +181,7 @@ SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-3df60dd2-4b0c-4178-ad3a-00ab0164a9ad.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-fa8e9f69-0382-429a-8d2d-b22a0bec5e56.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -233,11 +231,11 @@ LC_ALL = C
 # environment
 DBUS_STARTER_BUS_TYPE = session
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/174ca625_8e58_4f06_8778_9f7072c2dbf9
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/0591e09a_7785_4cd9_80ec_96f75644193a
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.145
+GNOME_TERMINAL_SERVICE = :1.996
 # default
 SUFFIXES := 
 # environment
@@ -255,9 +253,9 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 5043
+VSCODE_PID = 15211
 # environment
-DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=494493bb2b3235f51883f1ce62598b45
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=d7ee1a12c8bb275b4fad5083625b0b60
 # variable set hash-table stats:
 # Load=123/1024=12%, Rehash=0, Collisions=15/148=10%
 
@@ -267,9 +265,9 @@ DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=494493bb2b3235f51883f1c
 
 # Directories
 
-# . (device 66309, inode 967345): 9 files, no impossibilities.
+# . (device 66309, inode 967345): 12 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -292,6 +290,9 @@ all:
 
 # Not a target:
 main.c:
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -365,12 +366,12 @@ lib.c:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 152 B / avg = 7 B
-# current buf: size = 8162 B / used = 152 B / count = 20 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 21 / storage = 157 B / avg = 7 B
+# current buf: size = 8162 B / used = 157 B / count = 21 / avg = 7 B
 
-# strcache performance: lookups = 38 / hit rate = 47%
+# strcache performance: lookups = 41 / hit rate = 48%
 # hash-table stats:
-# Load=20/8192=0%, Rehash=0, Collisions=1/38=3%
-# Finished Make data base on Fri Apr 15 17:22:10 2022
+# Load=21/8192=0%, Rehash=0, Collisions=1/41=2%
+# Finished Make data base on Sun Apr 17 00:30:46 2022
 
  

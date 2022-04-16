@@ -11,11 +11,9 @@ int main()
     square_and_multiply(r, a, n, h);
     gmp_printf("%Zd\n", r);
 
-    mpz_t k;
-    mpz_init_set_str(k, "10", 10);
-    test_fermat(n, k);
+    test_fermat(n, 10);
 
-    mpz_clears(a,n,h,r,k,NULL);
+    mpz_clears(a,n,h,r,NULL);
 
 
     return 0;

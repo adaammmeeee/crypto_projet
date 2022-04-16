@@ -7,4 +7,4 @@ int square_and_multiply(mpz_t result, mpz_t a, mpz_t n, mpz_t h);
 
 
 // Renvoi 0 si n est composé et 1 si n potentiellement premier
-int test_fermat(mpz_t n, mpz_t k);
+int test_fermat(mpz_t n, int k);
